@@ -1,0 +1,80 @@
+! Title: switz's antisocial list
+! Description: because fuck being social
+! Expires: 4 days
+! Homepage: https://github.com/realswitzer/vrygooodrepo/ezl
+
+! 1984
+facebook.com^
+tiktok.com^
+twitter.com^
+youtube.com^
+reddit.com^
+instagram.com^
+whatsapp.com^
+vk.com^
+snapchat.com^
+pinterest.com^
+linkedin.com^
+imqq.com^
+qq.com^
+wechat.com^
+163.com^
+messenger.com^
+weibo.com^
+tumblr.com^
+douban.com^
+baidu.com^
+baiduinenglish.com^
+matrix.org^
+viber.com^
+discord.com^
+vimeo.com^
+telegram.org^
+telegram.im^
+line.me^
+! seems suspicious but oh well it appeared in search results, get blocked L
+line.biz^
+kuaishou.com^
+! gg nice try poland
+gg.pl^
+ebuddy.com^
+kakaocorp.com^
+mumble.info^
+kik.com^
+silentcircle.com^
+skype.com^
+slack.com^
+teamnoteapp.com^
+threema.ch^
+paltalk.com^
+ricochetrefresh.net^
+shape.ag^
+signal.org^
+trillian.im^
+pidgim.im^
+wickr.com^
+wire.com^
+! i hate big companies
+microsoft.com^
+google.com^
+bing.com^
+amazon.com^
+twitch.tv^
+spotify.com^
+office.com^
+apple.com^
+yahoo.com^
+pandora.com^
+netflix.com^
+alibaba.com^
+alibabagroup.com^
+uber.com^
+airbnb.com^
+yelp.com^
+mail.ru^
+tencent.com^
+! i should block github but its actually sorta based
+! sex [start]
+chaturbate.com^
+bongacams.com^
+! sex [end]
