@@ -1,7 +1,7 @@
 ! Title: switz's antisocial list
 ! Description: because fuck being social
 ! Expires: 4 days
-! Homepage: https://github.com/realswitzer/vrygooodrepo/ezl
+! Homepage: https://github.com/Realswitzer/vrygooodrepo/tree/master/ezl
 
 ! 1984
 facebook.com^
