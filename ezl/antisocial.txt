@@ -77,7 +77,7 @@ bing.com^
 microsoft.com^
 google.*^
 ! have fun only using this
-||google.co.ck^
+@@||google.co.ck^
 twitch.tv^
 spotify.com^
 office.com^
