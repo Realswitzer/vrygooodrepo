@@ -68,32 +68,34 @@ blogspot.com^
 redditstatic.com^
 vkontakte.ru^
 ! i hate big companies
-microsoft.com^
-google.com^
-bing.com^
+airbnb.com^
+alibaba.com^
+alibabagroup.com^
 amazon.com^
+apple.com^
+bing.com^
+microsoft.com^
+google.*^
+! have fun only using this
+||google.co.ck^
 twitch.tv^
 spotify.com^
 office.com^
-apple.com^
-yahoo.com^
 pandora.com^
 netflix.com^
-alibaba.com^
-alibabagroup.com^
 uber.com^
-airbnb.com^
-yelp.com^
 mail.ru^
 tencent.com^
+yahoo.com^
 ! not sure if yandex.*^ works or something to that degree, if so thats based
-yandex.ru^
 yandex.com^
-yandex.ua^
-yandex.st^
 yandex.kz^
+yandex.ru^
+yandex.st^
+yandex.ua^
+yelp.com^
 ! i should block github but its actually sorta based
 ! sex [start]
-chaturbate.com^
 bongacams.com^
+chaturbate.com^
 ! sex [end]
