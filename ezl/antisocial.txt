@@ -95,6 +95,9 @@ yandex.st^
 yandex.ua^
 yelp.com^
 ! i should block github but its actually sorta based
+! random things to start controversy surrounding me
+pronouns.page^
+avris.it^
 ! sex [start]
 bongacams.com^
 chaturbate.com^
