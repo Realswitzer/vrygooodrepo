@@ -38,13 +38,20 @@ let buttonPresses = 0
 let shouldMusicPlay = 0
 let verbose = 0
 let buttonValue = 0
+let mode = 0
 // \\MODIFY BELOW VALUES//
+// STOP MODE (0-value, 1-combination, 2-timer)
+mode = 0
 // LOG THINGS TO CONSOLE
 verbose = 1
 // TEST LIGHTLEVEL
 let llTest = 1
 // TIME BEFORE ARM (MS/S*1000)
 let tba = 2000
+// THRESHOLD BEFORE ACTIVATION
+// 1-2 BOX, 14-25 FEW FEET FROM WINDOW (NOON), 190-210 MB FACING WINDOW (NOON)
+let lightLevel = 4
+// VALUE MODE VARS
 // BUTTON PRESS COMBINATION
 // A:1 B:1000 AB:1000000
 let value = 2002003
@@ -53,9 +60,8 @@ let value = 2002003
 // prevents going a certain amount of times
 // after maxPresses + 1, it will reset.
 let maxPresses = 10
-// THRESHOLD BEFORE
-// 1-2 BOX, 14-25 FEW FEET FROM WINDOW (NOON), 190-210 MB FACING WINDOW (NOON)
-let lightLevel = 4
+// TIMER MODE (S)
+let tbd = 30
 // VOLUME (0-255; clamped)
 let volume = 191
 // TEMPO (unsure what upper limit is)
@@ -93,34 +99,48 @@ while (llTest == 1) {
 // Prevent having issues with console
     basic.pause(50)
 }
-while (shouldMusicPlay == 1) {
+if (mode == 1) {
+  while (shouldMusicPlay == 1) {
+      music.setVolume(volume)
+      music.playMelody(melody, tempo)
+      if (verbose == 1) {
+          console.log("DEBUG: Playing " + melody + "@" + tempo)
+  // Slight pause, almost unnoticeable + reduce spam
+          basic.pause(50)
+      }
+      if (buttonPresses > maxPresses) {
+          buttonValue = 0
+          buttonPresses = 0
+          // Modify to wanted reset grid
+          basic.showLeds(`
+              # # . . .
+              # . # . .
+              # # . . .
+              # . # . .
+              # . # . .
+              `, 250)
+          // More efficient way to clrscrn
+          basic.clearScreen()
+          if (verbose == 1) {
+              console.log("DEBUG: Reset buttonValue")
+          }
+      }
+      if (buttonValue == value) {
+          shouldMusicPlay += -1
+      }
+  }
+}
+if (mode == 1) {
+  break // fix later.
+}
+if (mode == 2) {
+  for (let iter = 0; iter < tbd; iter++) {
     music.setVolume(volume)
     music.playMelody(melody, tempo)
-    if (verbose == 1) {
-        console.log("DEBUG: Playing " + melody + "@" + tempo)
-// Slight pause, almost unnoticeable + reduce spam
-        basic.pause(50)
-    }
-    if (buttonPresses > maxPresses) {
-        buttonValue = 0
-        buttonPresses = 0
-        // Modify to wanted reset grid
-        basic.showLeds(`
-            # # . . .
-            # . # . .
-            # # . . .
-            # . # . .
-            # . # . .
-            `, 250)
-        // More efficient way to clrscrn
-        basic.clearScreen()
-        if (verbose == 1) {
-            console.log("DEBUG: Reset buttonValue")
-        }
-    }
-    if (buttonValue == value) {
-        shouldMusicPlay += -1
-    }
+    basic.pause(1000)
+  }
+    // this doesnt work.
+  }
 }
 if (verbose == 1) {
     console.log("DEBUG: Finished script")
