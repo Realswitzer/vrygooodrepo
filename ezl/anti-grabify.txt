@@ -1,0 +1,49 @@
+![Adblock Plus 2.0]
+! Title: anti-grabify
+! Description: because hackermans on discord want your ip for some reason
+! Version: 1.0.0
+! Expires: 500 days (update frequency)
+! Homepage: https://github.com/Realswitzer/vrygooodrepo/tree/master/ezl
+
+! https://gist.github.com/M-rcus/9af3207273bf5d30b28c2e3892f1a412
+||bmwforum.co^$document
+||catsnthing.com^$document
+||catsnthings.fun^$document
+||crabrave.pw^$document
+||curiouscat.club^$document
+||datasig.io^$document
+||datauth.io^$document
+||dateing.club^$document
+||discörd.com^$document
+||disçordapp.com^$document
+||fortnight.space^$document
+||fortnitechat.site^$document
+||freegiftcards.co^$document
+||gaming-at-my.best^$document
+||gamingfun.me^$document
+||grabify.link^$document
+||headshot.monster^$document
+||imageshare.best^$document
+||joinmy.site^$document
+||leancoding.co^$document
+||locations.quest^$document
+||lovebird.guru^$document
+||minecräft.com^$document
+||mypic.icu^$document
+||otherhalf.life^$document
+||partpicker.shop^$document
+||progaming.monster^$document
+||quickmessage.us^$document
+||screenshare.host^$document
+||screenshot.best^$document
+||shrekis.life^$document
+||sportshub.bar^$document
+||spottyfly.com^$document
+||stopify.co^$document
+||särahah.eu^$document
+||särahah.pl^$document
+||trulove.guru^$document
+||xda-developers.us^$document
+||yourmy.monster^$document
+||youshouldclick.us^$document
+||yoütu.be^$document
