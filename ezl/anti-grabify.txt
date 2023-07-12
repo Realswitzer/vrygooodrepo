@@ -2,13 +2,21 @@
 ! Title: anti-grabify
 ! Description: because hackermans on discord want your ip for some reason
 ! Version: 1.0.0
-! Expires: 500 days (update frequency)
+! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Realswitzer/vrygooodrepo/tree/master/ezl
 
 ! https://gist.github.com/M-rcus/9af3207273bf5d30b28c2e3892f1a412
+! https://github.com/tryka-1213/Grabify-Links/blob/main/domains.txt
+! https://github.com/Konnor88/anti-grabify/blob/master/url_list.txt
+
+! grabify/maybe mixed in with iplogger
+||02ip.ru^$document
+||2no.co^$document
+||bathtub.pics^$document
 ||bmwforum.co^$document
 ||catsnthing.com^$document
 ||catsnthings.fun^$document
+||cheapcinema.club^$document
 ||crabrave.pw^$document
 ||curiouscat.club^$document
 ||datasig.io^$document
@@ -16,34 +24,98 @@
 ||dateing.club^$document
 ||discörd.com^$document
 ||disçordapp.com^$document
+||ezstat.ru^$document
+||foot.wiki^$document
 ||fortnight.space^$document
 ||fortnitechat.site^$document
 ||freegiftcards.co^$document
+||gamergirl.pro^$document
+||gamertag.shop^$document
 ||gaming-at-my.best^$document
 ||gamingfun.me^$document
+||grabify.icu^$document
 ||grabify.link^$document
+||grabify.world^$document
+||grabifyicu.com^$document
 ||headshot.monster^$document
+||imagehost.pics^$document
 ||imageshare.best^$document
+||imghost.pics^$document
+||ipgrabber.ru^$document
+||ipgraber.ru^$document
+||iplis.ru^$document
+||iplogger.com^$document
+||iplogger.co^$document
+||iplogger.info^$document
+||iplogger.org^$document
+||iplogger.ru^$document
+||ipv6.grabify.link^$document
 ||joinmy.site^$document
 ||leancoding.co^$document
 ||locations.quest^$document
 ||lovebird.guru^$document
+||maper.info^$document
 ||minecräft.com^$document
 ||mypic.icu^$document
+||myprivate.pics^$document
+||noodshare.pics^$document
 ||otherhalf.life^$document
 ||partpicker.shop^$document
+||photovault.pics^$document
+||pichost.pics^$document
+||picshost.pics^$document
 ||progaming.monster^$document
+||programing.monster^$document
 ||quickmessage.us^$document
 ||screenshare.host^$document
+||screenshare.pics^$document
 ||screenshot.best^$document
+||shhh.lol^$document
 ||shrekis.life^$document
 ||sportshub.bar^$document
 ||spottyfly.com^$document
 ||stopify.co^$document
 ||särahah.eu^$document
 ||särahah.pl^$document
+||thisdomainislong.lol^$document
+||toldyouso.lol^$document
+||toldyouso.pics^$document
 ||trulove.guru^$document
 ||xda-developers.us^$document
+||yip.su^$document
 ||yourmy.monster^$document
 ||youshouldclick.us^$document
 ||yoütu.be^$document
+
+
+! Basic search results advertising services similar to grabify
+
+! iplogger
+||02ip.ru^$document
+||2no.co^$document
+||bc.ax^$document
+||ed.tc^$document
+||ezstat.ru^$document
+||ipgrabber.ru^$document
+||ipgraber.ru^$document
+||iplis.org^$document
+||iplis.ru^$document
+||iplist.ru^$document
+||iplogger.com^$document
+||iplogger.co^$document
+||iplogger.info^$document
+||iplogger.org^$document
+||iplogger.ru^$document
+||maper.info^$document
+||wl.gl^$document
+||yip.su^$document
+
+! other
+! bit.ly is able to log IPs with subscription, too much caught in crossfire so disabled by default
+! ||bit.ly^$document
+||blasze.com^$document
+! seems like legit site with other features, but ip logger url is always /cool.php?item=XXXXXXXX
+||ps3cfw.com/cool.php$document
+||tracker.iplocation.net^$document
+||yȯutube.com^$document
+||gyazo.nl^$document
