@@ -1,4 +1,4 @@
-![Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! Title: anti-grabify
 ! Description: because hackermans on discord want your ip for some reason
 ! Version: 1.0.0
